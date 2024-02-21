@@ -12,7 +12,7 @@ let promiseToCleanTheRoom=new Promise ((resolve,reject)=>{
         resolve('Clean');
     }
     else{
-        resolve('not Clean');
+        reject('not Clean');
     }
 })
 
@@ -23,3 +23,13 @@ console.log("The room is "+ result)
 }
 
 checkRoomStatus();
+
+
+
+Feature/userManege
+
+
+"feat:initialize searchbar"
+
+"fix:searchbar not working"
+
