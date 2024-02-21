@@ -26,10 +26,3 @@ checkRoomStatus();
 
 
 
-Feature/userManege
-
-
-"feat:initialize searchbar"
-
-"fix:searchbar not working"
-
