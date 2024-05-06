@@ -1,0 +1,43 @@
+body {
+    background:black; /* Fancy background gradient */
+    color: #fff; /* White text for better readability on dark backgrounds */
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    padding: 20px;
+}
+.card {
+    background: rgba(255, 255, 255, 0.9); /* Slightly more opaque white background */
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.3);
+}
+
+.card-body {
+    background: linear-gradient(145deg, #ffffff, #f8f9fa); /* Soft gradient from white to very light gray */
+    color: #333; /* Darker text color for contrast on a light background */
+}
+
+.card-title, .card-text {
+    color: #333; /* Ensuring text color is consistently dark across all text elements */
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.loading, .error {
+    text-align: center;
+    font-size: 1.4em;
+    color: #ffd700; /* Gold text for visibility */
+    margin-top: 50px;
+}

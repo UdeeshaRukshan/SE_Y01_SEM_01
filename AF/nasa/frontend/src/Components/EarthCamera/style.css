@@ -1,0 +1,24 @@
+body {
+    background-color: #f4f4f9; /* Light grey background for better contrast */
+    color: #333; /* Darker text for readability */
+    font-family: 'Arial', sans-serif; /* General font for consistency */
+}
+
+.card-container {
+    padding: 20px;
+    background-color: #fff; /* White background for the card area */
+    border-radius: 8px; /* Rounded corners for the cards */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    transition: transform 0.2s; /* Smooth transform on hover */
+}
+
+.card-container:hover {
+    transform: scale(1.05); /* Slight increase in size on hover */
+}
+
+/* Customizing the loading and error messages */
+.loading, .error {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 50px;
+}
